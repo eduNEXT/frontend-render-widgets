@@ -1,10 +1,10 @@
 {
-  "name": "@edx/frontend-template-application",
+  "name": "@edunext/frontend-render-widgets",
   "version": "0.1.0",
   "description": "Frontend application template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-template-application.git"
+    "url": "git+https://github.com/edunext/frontend-render-widgets.git"
   },
   "browserslist": [
     "extends @edx/browserslist-config"
@@ -26,24 +26,14 @@
   },
   "author": "edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/openedx/frontend-template-application#readme",
+  "homepage": "https://github.com/edunext/frontend-render-widgets#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/openedx/frontend-template-application/issues"
+    "url": "https://github.com/edunext/frontend-render-widgets/issues"
   },
   "dependencies": {
-    "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
-    "@edx/frontend-component-header": "^5.6.0",
-    "@edx/frontend-platform": "^8.0.0",
-    "@fortawesome/fontawesome-svg-core": "1.2.36",
-    "@fortawesome/free-brands-svg-icons": "5.15.4",
-    "@fortawesome/free-regular-svg-icons": "5.15.4",
-    "@fortawesome/free-solid-svg-icons": "5.15.4",
-    "@fortawesome/react-fontawesome": "0.2.2",
-    "@openedx/frontend-slot-footer": "^1.0.2",
-    "@openedx/paragon": "^22.0.0",
     "core-js": "3.40.0",
     "prop-types": "15.8.1",
     "react": "17.0.2",
